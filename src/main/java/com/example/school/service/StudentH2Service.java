@@ -29,7 +29,7 @@ import java.util.*;
 public class StudentH2Service<db> implements StudentRepository {
 
     @Autowired
-    private JdbcTamplate db;
+    private JdbcTemplate db;
 
     @Override
     public ArrayList<Student> getStudents() {

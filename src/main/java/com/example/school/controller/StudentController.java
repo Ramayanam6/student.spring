@@ -19,7 +19,7 @@ public class StudentController {
         return studentService.getStudents();
     }
 
-    @GetMapping("/stydents/studentId")
+    @GetMapping("/stydents/{studentId}")
 
     public Student getStudentById(@PathVariable("studentId") int studentId) {
         return studentService.getStudentById(studentId);

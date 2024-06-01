@@ -13,7 +13,7 @@ public interface StudentRepository {
 
     String addMultipleStudents(ArrayList<Student> studentList);
 
-    Student updaStudent(int studentId, Student student);
+    Student updateStudent(int studentId, Student student);
 
     void deleteStudent(int studentId);
 }
